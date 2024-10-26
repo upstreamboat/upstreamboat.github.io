@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"af202fb70110b0a4","x":-250,"y":300,"width":630,"height":100,"color":"1","type":"text","text":"计算机硬件：\n\t1. cpu\n\t2. 内存"},
+		{"id":"721bd9e9a2eb3a31","x":-250,"y":160,"width":630,"height":100,"color":"2","type":"text","text":"操作系统：\n\t1. 接口\n\t2. 内核"},
+		{"id":"7a446038ba7f74a5","x":130,"y":-160,"width":250,"height":280,"color":"3","type":"text","text":"应用程序：\n部分程序无需解释器，直接调用操作系统的接口"},
+		{"id":"36620de272431259","x":-250,"y":20,"width":250,"height":100,"color":"3","type":"text","text":"解释器：\n\t1. shell解释器\n\t2. python解释器"},
+		{"id":"d9d48b41138256c1","x":-250,"y":-60,"width":250,"height":50,"type":"text","text":"命令"},
+		{"id":"ccbcaf93b01c3d0a","x":-250,"y":-160,"width":250,"height":60,"color":"4","type":"text","text":"解释型编程语言开发的程序"},
+		{"id":"d521e69025ca5168","x":-250,"y":-260,"width":630,"height":60,"type":"text","text":"用户"}
+	],
+	"edges":[
+		{"id":"33669c62264fa242","fromNode":"ccbcaf93b01c3d0a","fromSide":"bottom","toNode":"d9d48b41138256c1","toSide":"top"},
+		{"id":"48963f687de7c3fe","fromNode":"d9d48b41138256c1","fromSide":"bottom","toNode":"36620de272431259","toSide":"top"},
+		{"id":"20b03defca6da3fb","fromNode":"36620de272431259","fromSide":"bottom","toNode":"721bd9e9a2eb3a31","toSide":"top"},
+		{"id":"bd40218afba74134","fromNode":"721bd9e9a2eb3a31","fromSide":"bottom","toNode":"af202fb70110b0a4","toSide":"top"},
+		{"id":"4f1f5b0d46a085b4","fromNode":"7a446038ba7f74a5","fromSide":"bottom","toNode":"721bd9e9a2eb3a31","toSide":"top"},
+		{"id":"01070b12df325604","fromNode":"d521e69025ca5168","fromSide":"bottom","toNode":"ccbcaf93b01c3d0a","toSide":"top"},
+		{"id":"cbfe76ee7e65a75e","fromNode":"d521e69025ca5168","fromSide":"bottom","toNode":"7a446038ba7f74a5","toSide":"top"}
+	]
+}
